@@ -48,6 +48,7 @@ target_link_libraries(${PROJECT_NAME}
   rviz_ogre_vendor::OgreMain
   rviz_ogre_vendor::OgreOverlay
   Qt5::Widgets
+  yaml-cpp
 )
 
 # TODO(wjwwood): find a way to make this optional or to run without "deploying" the
